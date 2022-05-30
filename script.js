@@ -44,20 +44,22 @@ function svaeList() {
 };
 function renderLastTodo() {}
     var lastTodo = JSON.parse(localStorage.getItem("todos"));
-    textbox1.placeholder = lastTodo.textbox1;
-    textbox2.placeholder = lastTodo.textbox2;
-    textbox3.placeholder = lastTodo.textbox3;
-    textbox4.placeholder = lastTodo.textbox4;
-    textbox5.placeholder = lastTodo.textbox5;
-    textbox6.placeholder = lastTodo.textbox6;
-    textbox7.placeholder = lastTodo.textbox7;
-    textbox8.placeholder = lastTodo.textbox8;
-    textbox9.placeholder = lastTodo.textbox9;
-    textbox10.placeholder = lastTodo.textbox10;
-    textbox11.placeholder = lastTodo.textbox11;
-    textbox12.placeholder = lastTodo.textbox12;
+    if (lastTodo.length != 0){
+        textbox1.placeholder = lastTodo.textbox1;
+        textbox2.placeholder = lastTodo.textbox2;
+        textbox3.placeholder = lastTodo.textbox3;
+        textbox4.placeholder = lastTodo.textbox4;
+        textbox5.placeholder = lastTodo.textbox5;
+        textbox6.placeholder = lastTodo.textbox6;
+        textbox7.placeholder = lastTodo.textbox7;
+        textbox8.placeholder = lastTodo.textbox8;
+        textbox9.placeholder = lastTodo.textbox9;
+        textbox10.placeholder = lastTodo.textbox10;
+        textbox11.placeholder = lastTodo.textbox11;
+        textbox12.placeholder = lastTodo.textbox12;
+    }
 
-svaeList()
+
 for (i=1; i<13; i++){
     document.getElementById('b'+i).addEventListener("click", function(event){
         event.preventDefault();
@@ -68,5 +70,5 @@ function init(){
     renderLastTodo();
     timecheck();
 }
-
+svaeList()
 init();
