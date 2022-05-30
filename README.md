@@ -12,3 +12,4 @@ Only upcoming plans are shown in skyblue.
 
 #Improvements
 1. Right now, one save button works with every lines of planner. It needs to be changed to work one to one.
+2. I want it to show a alter "Saved!" when user click the save button. 
