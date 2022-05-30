@@ -44,7 +44,7 @@ function svaeList() {
 };
 function renderLastTodo() {}
     var lastTodo = JSON.parse(localStorage.getItem("todos"));
-    if (lastTodo.length != 0){
+    if (lastTodo != null){
         textbox1.placeholder = lastTodo.textbox1;
         textbox2.placeholder = lastTodo.textbox2;
         textbox3.placeholder = lastTodo.textbox3;
