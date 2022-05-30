@@ -57,6 +57,7 @@ function renderLastTodo() {}
     textbox11.placeholder = lastTodo.textbox11;
     textbox12.placeholder = lastTodo.textbox12;
 
+svaeList()
 for (i=1; i<13; i++){
     document.getElementById('b'+i).addEventListener("click", function(event){
         event.preventDefault();
