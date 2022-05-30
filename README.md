@@ -1,6 +1,6 @@
 #Work Day Scheduler
 
-https://seheon013.github.io/week_5_challenge/
+https://seheon013.github.io/Work-Scheduler/
 
 This webpage is a work hour schedular. User can schedule their work time from 9am to 8pm.
 Users can write their plans in the input box located next to the time. 
