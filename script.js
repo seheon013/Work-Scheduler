@@ -23,7 +23,7 @@ function timecheck(){
             document.getElementById('h'+i).style.backgroundColor = "grey";
     };
 }};
-timecheck(1)
+
 function svaeList() {
     var todos = {
         textbox1: textbox1.value.trim(),
