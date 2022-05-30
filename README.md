@@ -1,4 +1,4 @@
-# week_5_challenge
+#Work Day Scheduler
 
 https://seheon013.github.io/week_5_challenge/
 
